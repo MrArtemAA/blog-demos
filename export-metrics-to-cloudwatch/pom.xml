@@ -30,6 +30,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-aws</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-cloudwatch</artifactId>
+            <version>1.3.5</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
